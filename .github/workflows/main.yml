@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: run script
-      run: echo Hello World!
+      run: python3 converter.py
